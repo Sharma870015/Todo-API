@@ -1,0 +1,18 @@
+.for-list {
+    margin-top: 30px;
+}
+
+li.list-item {
+    border: 2px solid #7e7979;
+    padding: 15px;
+    list-style-type: none;
+    background-color: white;
+    border-radius: 5px;
+}
+
+span.for-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+}

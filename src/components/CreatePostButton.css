@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: beige;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+h1.header {
+    margin-top: 35px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.for-h3 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.for-counting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3.for-todos {
+    border: 1px solid #bababa;
+    border-radius: 5px;
+    height: 5em;
+    margin-right: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #626262;
+}
+
+input.input-div {
+    border: 1px solid #a2a0a0;
+    border-radius: 25px;
+    width: 37em;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li.li-div {
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 4em;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.for-inp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn-div {
+    border: 1px solid #a79f9f;
+    border-radius: 20px;
+    height: 35px;
+    width: 13em;
+    font-size: 15px;
+}
+
+.second-container {
+    margin-top: 35px;
+}
+
+.mainUl-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-edit\&dlt {
+    padding-right: 10px;
+}
+
+button.dlt-btn {
+    margin-right: 10px;
+    color: red;
+}
+
+button.edit-btn {
+    color: green;
+}
+
+.ul-div {
+    padding-left: 0;
+}
+
+p.for-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px (tablets and smaller) */
+@media (max-width: 768px) {
+    input.input-div {
+        margin-bottom: 10px;
+    }
+
+    button.btn-div {
+        font-size: 14px;
+    }
+
+    .second-container {
+        margin-top: 20px;
+    }
+
+    .mainUl-div {
+        flex-direction: column;
+    }
+
+    li.li-div {
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .btn-edit\&dlt {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button.dlt-btn,
+    button.edit-btn {
+        margin: 5px 0;
+    }
+}
+
+/* For screens smaller than 480px (phones) */
+@media (max-width: 480px) {
+    input.input-div {
+        font-size: 14px;
+    }
+
+    button.btn-div {
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .second-container {
+        margin-top: 10px;
+    }
+
+    .ul-div {
+        padding-left: 0;
+    }
+
+    .btn-edit\&dlt {
+        padding-right: 5px;
+    }
+}
